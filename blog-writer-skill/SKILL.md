@@ -144,19 +144,10 @@ When the topic is complex or lengthy, the blog can be split into multiple parts.
 
 ### Breadth
 
-Cover multiple dimensions:
-- Background
-- Principles
-- Implementation
-- Examples
-- Applications
-- Pros and cons
-- Best practices
-- Further reading
-
+Cover multiple dimensions, keep it as comprehensive as possible, and need to confirm with the user whether the breadth is sufficient.
 ### Depth
 
-Each section should expand layer by layer:
+Each section should expand layer by layer，such as:
 
 ```
 Concept
@@ -168,8 +159,6 @@ Implementation
 Application
     ↓
 Practical Experience
-    ↓
-Summary
 ```
 
 ### Objectivity
@@ -214,8 +203,9 @@ Before the main content, add a preface using H1 that includes:
 - Prerequisites
 - Reading benefits
 
-Add this disclaimer in bold-italic:
-**"Parts of this article were generated with AI assistance. The author has carefully reviewed it, but any oversights are welcome to be pointed out. If you mind, please do not read."**
+### Disclaimer
+
+Add this disclaimer in bold-italic under Blog Title:`Parts of this article were generated with AI assistance. The author has carefully reviewed it, but any oversights are welcome to be pointed out. If you mind, please do not read.`
 
 ### Formulas
 
@@ -369,11 +359,11 @@ Generate the blog as a single Markdown file with proper structure:
 ```markdown
 # [Title]
 
+***Parts of this article were generated with AI assistance. The author has carefully reviewed it, but any oversights are welcome to be pointed out. If you mind, please do not read.***
+
 # Preface
 
 [Target audience, prerequisites, reading benefits]
-
-**"Parts of this article were generated with AI assistance. The author has carefully reviewed it, but any oversights are welcome to be pointed out. If you mind, please do not read."**
 
 # [Chapter 1]
 
